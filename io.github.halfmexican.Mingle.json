@@ -44,8 +44,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/halfmexican/mingle.git",
-                    "commit": "77e1f499324bef9f00cc44a3a546f50005607e45",
-                    "tag":  "v0.11"
+                    "commit": "1f9dad502f7e08660004fd8d7e592c34a5c6db2b",
+                    "tag":  "v0.12"
                 }
             ]
         }
