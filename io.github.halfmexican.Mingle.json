@@ -37,7 +37,7 @@
           ]
         },
         {
-            "name" : "mingle",
+             "name" : "mingle",
             "builddir" : true,
             "buildsystem" : "meson",
             "sources" : [
