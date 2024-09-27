@@ -1,8 +1,11 @@
 {
     "app-id" : "io.github.halfmexican.Mingle",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "46",
+    "runtime-version" : "47",
     "sdk" : "org.gnome.Sdk",
+    "sdk-extensions" : [
+        "org.freedesktop.Sdk.Extension.vala"
+    ],   
     "command" : "mingle",
     "finish-args" : [
         "--share=network",
@@ -44,8 +47,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/halfmexican/mingle.git",
-                    "commit": "947b2ed7f3e74d00c8d7c71996eb4e6f321bdfdb",
-                    "tag":  "v0.14"
+                    "commit": "3df69293a81462abef12f56018644e7e31d10315",
+                    "tag":  "v0.15"
                 }
             ]
         }
