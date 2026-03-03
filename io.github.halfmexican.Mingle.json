@@ -1,11 +1,8 @@
 {
     "app-id" : "io.github.halfmexican.Mingle",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "48",
+    "runtime-version" : "49",
     "sdk" : "org.gnome.Sdk",
-    "sdk-extensions" : [
-        "org.freedesktop.Sdk.Extension.vala"
-    ],   
     "command" : "mingle",
     "finish-args" : [
         "--share=network",
@@ -14,31 +11,7 @@
         "--device=dri",
         "--socket=wayland"
     ],
-    "cleanup" : [
-        "/include",
-        "/lib/pkgconfig",
-        "/man",
-        "/share/doc",
-        "/share/gtk-doc",
-        "/share/man",
-        "/share/pkgconfig",
-        "/share/vala",
-        "*.la",
-        "*.a"
-    ],
     "modules" : [
-        {
-          "name": "blueprint-compiler",
-          "buildsystem": "meson",
-          "cleanup": ["*"],
-          "sources": [
-            {
-              "type": "git",
-              "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-              "tag": "v0.18.0"
-            }
-          ]
-        },
         {
             "name" : "mingle",
             "builddir" : true,
