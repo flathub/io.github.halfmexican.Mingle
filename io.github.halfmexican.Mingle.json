@@ -1,7 +1,7 @@
 {
     "app-id" : "io.github.halfmexican.Mingle",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "49",
+    "runtime-version" : "50",
     "sdk" : "org.gnome.Sdk",
     "command" : "mingle",
     "finish-args" : [
@@ -20,8 +20,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/halfmexican/mingle.git",
-                    "commit": "979b369b73e89d6737453047b588cd444be67d7c",
-                    "tag":  "v0.20"
+                    "commit": "1fd3dfc4b84095774c842bf08c8974b74ced3a74",
+                    "tag":  "v0.30"
                 }
             ]
         }
